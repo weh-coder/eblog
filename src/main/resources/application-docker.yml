@@ -5,7 +5,7 @@ spring:
     driver-class-name: com.p6spy.engine.spy.P6SpyDriver
     url: jdbc:p6spy:mysql://emysql:3306/eblog?useUnicode=true&useSSL=false&characterEncoding=utf8&serverTimezone=UTC
     username: root
-    password: admin
+    password: weh123456
   freemarker:
     settings:
       classic_compatible: true
@@ -22,7 +22,7 @@ spring:
       repositories:
         enabled: true
   rabbitmq:
-    username: root
-    password: password
+    username: weh
+    password: 123456
     host: erabbit
     port: 5672
